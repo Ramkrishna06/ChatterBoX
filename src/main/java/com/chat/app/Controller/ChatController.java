@@ -16,7 +16,7 @@ public class ChatController {
     }
 
 
-    @GetMapping("/chat")
+    @GetMapping("/")
     public String chat(){
         return "redirect:/interface3.html";
     }
